@@ -20,6 +20,7 @@ jobs:
       run: npm ci
     - name: Install dependencies
       run: npm install -g npm
+    - name: Initialize 
       run: npm init -y
     - name: Install playwright browsers
       run: npm install codeceptjs playwright --save-dev --legacy-peer-deps
